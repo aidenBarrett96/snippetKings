@@ -140,233 +140,233 @@
 	
 	<!--Checkpoint-->
  
-    
-<!--main menu page-->
-<div data-role="page" id="mainMenu_page" data-theme="a">
- 
-<div data-role="header">
-            <h1><a href="#" class="appTitle">Snippet Kings</a></h1>
-            <a data-role="button" data-rel="dialog" href="#profile_page" data-transition="pop" data-icon="user" data-iconpos="notext" class="ui-btn-right"></a>
-</div><!-- /header -->
- 
-	<div role="main" class="ui-content" id="mainMenu_menu">
-                <a href="#singlePlayer_page" data-transition="fade" data-role="button" class="normalFont">Single player</a>
-                <a href="#multiplayer_page" data-role="button" class="normalFont">Multiplayer</a>
-                <a href="#" data-role="button" class="normalFont">Settings</a>
-                <a href="#" data-role="button" class="normalFont">About</a>
-      </div><!-- /content -->
-</div><!-- /page -->
-      
-<!--profile dialog page -->
-<div data-role="page" id="profile_page" data-theme="a">
-      	<div data-role="header">
-      		<h1 class="appTitle">Profile name</h1>
-      	</div>
-        
-        <div data-role="content">
-        	<div>
-        		<h1>Level</h1>
-            	<p>insert data</p>
-        		<h1>Performance</h1>
-            	<p>insert data</p>
-            	<br>
-            	<h1>Ranking</h1>
-            	<p>insert data</p>
-            	<br>
-        	</div>
-            
-            	<a href="#" data-role="button" class="normalFont">Edit profile</a>
-                <a href="#" data-role="button" class="normalFont">Sign out</a>
 
-        </div>
- 
-         
+	<!--main menu page-->
+	<div data-role="page" id="mainMenu_page" data-theme="a">
+		<div data-role="header">
+			<h1><a href="#" class="appTitle">Snippet Kings</a></h1>
+			<a data-role="button" data-rel="dialog" href="#profile_page" data-transition="pop" data-icon="user" data-iconpos="notext" class="ui-btn-right"></a>
+		</div><!-- /header -->
 
-      </div><!--end profile page-->
-      
-      
-      
-            <!-- single player page-->
-       <div data-role="page" id="singlePlayer_page">
- 
-        <div data-role="header">
-            <h1><a href="#mainMenu_page" class="appTitle">Snippet Kings</a></h1>
-                        <a data-role="button" data-rel="dialog" href="#profile_page" data-transition="pop" data-icon="user" data-iconpos="notext" class="ui-btn-right"></a>
-        </div><!-- /header -->
- 
-        <div role="main" class="ui-content" id="test1">
-            
-                <a href="#campaignSelect_Page" data-transition="fade" data-role="button" class="normalFont">Campaign</a>
-                <a href="#" data-role="button" class="normalFont">Quick Game</a>
-                <a href="#" data-role="button" class="normalFont">Endless mode</a>
-            
-      </div><!-- /content -->
-      
-      <div data-role="footer">	
-      <a href="#" data-role="button" id="singlePlayer_dailyChallenge" class="normalFont">Daily Challenge</a>
-      </div>
-</div><!--end page -->
+		<div role="main" class="ui-content" id="mainMenu_menu">
+			<a href="#singlePlayer_page" data-transition="fade" data-role="button" class="normalFont">Single player</a>
+			<a href="#multiplayer_page" data-role="button" class="normalFont">Multiplayer</a>
+			<a href="#" data-role="button" class="normalFont">Settings</a>
+			<a href="#" data-role="button" class="normalFont">About</a>
+		</div><!-- /content -->
+	</div><!-- /page -->
+
+	<!--profile dialog page -->
+	<div data-role="page" id="profile_page" data-theme="a">
+		<div data-role="header">
+			<h1 class="appTitle">Profile name</h1>
+		</div>
+
+		<div data-role="content">
+			<div>
+				<h1>Level</h1>
+				<p>insert data</p>
+				<h1>Performance</h1>
+				<p>insert data</p>
+				<br>
+				<h1>Ranking</h1>
+				<p>insert data</p>
+				<br>
+			</div>
+
+			<a href="#" data-role="button" class="normalFont">Edit profile</a>
+			<a href="#" data-role="button" class="normalFont">Sign out</a>
+		</div>
+	</div><!--end profile page-->
 
 
-<!-- Campaign Select Page-->
-<div data-role="page" id="campaignSelect_Page">
-	<div data-role="header">
-		<a data-role="button" href="#singlePlayer_page" data-transition="pop" data-icon="back" data-iconpos="notext" class="ui-btn-left"></a>
+
+	<!-- single player page-->
+	<div data-role="page" id="singlePlayer_page">
+		<div data-role="header">
+			<h1><a href="#mainMenu_page" class="appTitle">Snippet Kings</a></h1>
+			<a data-role="button" data-rel="dialog" href="#profile_page" data-transition="pop" data-icon="user" data-iconpos="notext" class="ui-btn-right"></a>
+		</div><!-- /header -->
 		
-    	<h1><a href="#mainMenu_page" class="appTitle">Snippet Kings</a></h1>
-    	            <a data-role="button" data-rel="dialog" href="#profile_page" data-transition="pop" data-icon="user" data-iconpos="notext" class="ui-btn-right"></a>
-    </div>
-    <div data-role="content">
-    	<div class="normalFont" style="text-decoration:underline;">
-        	Level Select:
-        </div>
-        <div class="ui-grid-c">
-    		<div class="ui-block-a"><div class="ui-bar ui-bar-a">
-            1: 
-				<img src="tick.png" onClick="" class="levelSelectUnlocked">
-            </div></div>
-    		<div class="ui-block-b"><div class="ui-bar ui-bar-a">
-            2:
-				<img src="unlocked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-c"><div class="ui-bar ui-bar-a">
-            3:  				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-d"><div class="ui-bar ui-bar-a">
-            4: 				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-            <div class="ui-block-a"><div class="ui-bar ui-bar-a">
-            5:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-b"><div class="ui-bar ui-bar-a">
-            6:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-c"><div class="ui-bar ui-bar-a">
-            7:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-d"><div class="ui-bar ui-bar-a">
-            8:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-            <div class="ui-block-a"><div class="ui-bar ui-bar-a">
-            9:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-b"><div class="ui-bar ui-bar-a">
-            10:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-c"><div class="ui-bar ui-bar-a">
-            11:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-d"><div class="ui-bar ui-bar-a">
-            12:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-            <div class="ui-block-a"><div class="ui-bar ui-bar-a">
-            13:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-b"><div class="ui-bar ui-bar-a">
-            14:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-c"><div class="ui-bar ui-bar-a">
-            15:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-d"><div class="ui-bar ui-bar-a">
-            16:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-            <div class="ui-block-a"><div class="ui-bar ui-bar-a">
-            17:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-b"><div class="ui-bar ui-bar-a">
-            18:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-c"><div class="ui-bar ui-bar-a">
-            19:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-    		<div class="ui-block-d"><div class="ui-bar ui-bar-a">
-            20:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
-
-            </div></div>
-		</div><!-- /grid-c -->
-    </div>
-</div>
-
-<div data-role='page' id="gameRoom_page"> <!--game room-->
-
-<?php /*obtaining song selection
-if(isset($_POST['songs'])) {
-echo "<script>alert('hello' +".$songs[1]->getTitle .")</script>";
-}*/
-?>
-
-<!--<script>
-    $.(".draggable").draggable({
-        revert: "valid"
-    });
-    $.(".dropppable").droppable({
-        scope: ".draggable"
-    });
-    
-    
-</script>-->
-
-    <!--Header-->
-    <div data-role="header">
-		<a data-role="button" href="#campaignSelect_Page" data-transition="pop" data-icon="back" data-iconpos="notext" class="ui-btn-left"></a>
+		<div role="main" class="ui-content" id="test1">
+			<a href="#campaignSelect_Page" data-transition="fade" data-role="button" class="normalFont">Campaign</a>
+			<a href="#" data-role="button" class="normalFont">Quick Game</a>
+			<a href="#" data-role="button" class="normalFont">Endless mode</a>
+		</div><!-- /content -->
 		
-                <h1>Snippet Kings</h1>
-                <a data-role="button" data-rel="dialog" href="#gameRoomOptions_Page" data-transition="pop" data-icon="user" data-iconpos="notext" class="ui-btn-right"></a>
-    </div><!--End header-->
+		<div data-role="footer">
+			<a href="#" data-role="button" id="singlePlayer_dailyChallenge" class="normalFont">Daily Challenge</a>
+		</div>
+	</div><!--end page -->
 
-    <!--page content-->
-    <div data-role="content">
-        
 
-        <h1>Artist:</h1>
-        <div id="tileSpace_artist">
-		
-	  </div>
-			
-			<div id="artistCorrect"></div>
-			
-		<h1>Title:</h1>
-			<div id="titleSpace"></div>
-        <div id="tileSpace_title">
-		
-	  </div>
-		
-					<div id="titleCorrect"></div>
+	<!-- Campaign Select Page-->
+	<div data-role="page" id="campaignSelect_Page">
+		<div data-role="header">
+			<a data-role="button" href="#singlePlayer_page" data-transition="pop" data-icon="back" data-iconpos="notext" class="ui-btn-left"></a>
+			<h1><a href="#mainMenu_page" class="appTitle">Snippet Kings</a></h1>
+			<a data-role="button" data-rel="dialog" href="#profile_page" data-transition="pop" data-icon="user" data-iconpos="notext" class="ui-btn-right"></a>
+	    	</div>
+	    	<div data-role="content">
+			<div class="normalFont" style="text-decoration:underline;">Level Select:</div>
+			<div class="ui-grid-c">
+				<div class="ui-block-a">
+					<div class="ui-bar ui-bar-a">
+						1:
+						<img src="tick.png" onClick="" class="levelSelectUnlocked">
+					</div>
+				</div>
+				
+				<div class="ui-block-b">
+					<div class="ui-bar ui-bar-a">
+						2:
+						<img src="unlocked.png" onClick="testTiles();" class="levelSelectUnlocked">
+					</div>
+				</div>
+				
+				<div class="ui-block-c">
+					<div class="ui-bar ui-bar-a">
+						3:
+						<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+					</div>
+				</div>
+				
+				<!--checkpoint-->
+				
+				
+			<div class="ui-block-d"><div class="ui-bar ui-bar-a">
+		    4: 				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
 
-		
-		<hr>
-		<audio src="Pitbull Snippet.wav" type="audio/wav" controls></audio>
-		<hr>
-		<div id="tileSpace_letters">
-        
-        </div>
-		
+		    </div></div>
+		    <div class="ui-block-a"><div class="ui-bar ui-bar-a">
+		    5:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
 
-    </div><!--end page content-->
-</di></div><!--end game room-->
+		    </div></div>
+			<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+		    6:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
 
-      
-<!-- multiplayer page-->
-<div data-role="page" id="multiplayer_page">
+		    </div></div>
+			<div class="ui-block-c"><div class="ui-bar ui-bar-a">
+		    7:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-d"><div class="ui-bar ui-bar-a">
+		    8:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+		    <div class="ui-block-a"><div class="ui-bar ui-bar-a">
+		    9:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+		    10:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-c"><div class="ui-bar ui-bar-a">
+		    11:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-d"><div class="ui-bar ui-bar-a">
+		    12:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+		    <div class="ui-block-a"><div class="ui-bar ui-bar-a">
+		    13:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+		    14:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-c"><div class="ui-bar ui-bar-a">
+		    15:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-d"><div class="ui-bar ui-bar-a">
+		    16:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+		    <div class="ui-block-a"><div class="ui-bar ui-bar-a">
+		    17:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-b"><div class="ui-bar ui-bar-a">
+		    18:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-c"><div class="ui-bar ui-bar-a">
+		    19:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			<div class="ui-block-d"><div class="ui-bar ui-bar-a">
+		    20:				<img src="locked.png" onClick="testTiles();" class="levelSelectUnlocked">
+
+		    </div></div>
+			</div><!-- /grid-c -->
+	    </div>
+	</div>
+
+	<div data-role='page' id="gameRoom_page"> <!--game room-->
+
+	<?php /*obtaining song selection
+	if(isset($_POST['songs'])) {
+	echo "<script>alert('hello' +".$songs[1]->getTitle .")</script>";
+	}*/
+	?>
+
+	<!--<script>
+	    $.(".draggable").draggable({
+		revert: "valid"
+	    });
+	    $.(".dropppable").droppable({
+		scope: ".draggable"
+	    });
+
+
+	</script>-->
+
+	    <!--Header-->
+	    <div data-role="header">
+			<a data-role="button" href="#campaignSelect_Page" data-transition="pop" data-icon="back" data-iconpos="notext" class="ui-btn-left"></a>
+
+			<h1>Snippet Kings</h1>
+			<a data-role="button" data-rel="dialog" href="#gameRoomOptions_Page" data-transition="pop" data-icon="user" data-iconpos="notext" class="ui-btn-right"></a>
+	    </div><!--End header-->
+
+	    <!--page content-->
+	    <div data-role="content">
+
+
+		<h1>Artist:</h1>
+		<div id="tileSpace_artist">
+
+		  </div>
+
+				<div id="artistCorrect"></div>
+
+			<h1>Title:</h1>
+				<div id="titleSpace"></div>
+		<div id="tileSpace_title">
+
+		  </div>
+
+						<div id="titleCorrect"></div>
+
+
+			<hr>
+			<audio src="Pitbull Snippet.wav" type="audio/wav" controls></audio>
+			<hr>
+			<div id="tileSpace_letters">
+
+		</div>
+
+
+	    </div><!--end page content-->
+	</di></div><!--end game room-->
+
+
+	<!-- multiplayer page-->
+	<div data-role="page" id="multiplayer_page">
  
         <div data-role="header">
             <h1><a href="#mainMenu_page" class="appTitle">Snippet Kings</a></h1>
